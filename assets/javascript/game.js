@@ -25,7 +25,8 @@ document.getElementById("currentWord").innerHTML = dashLenght.join(" ");
 //display letter that the user has guessed correctly and incorrectly 
 
 //user has 15 guesses
-
+//target 'guesses-left - docemnt.getelemtn(;guesses-left).innerhtml=userguess;
+//
 //if no more guesses you lose the round and display you lose. point count
 
 //gamne resrtarts
@@ -43,7 +44,11 @@ var randomWordSplit = randomWord.split("");
 console.log(randomWordSplit);
 for (var i = 0; i < randomWordSplit.length; i++){
     //if userguess = randomwordsplit[i]
-    if 
+    if (userGuess === randomWordSplit[i]) {
+    //userGuess[] = letters
+    
+        document.getElementById("currentWord").innerHTML = randomWordSplit.join(" ");
+    }
+    }
 }
 
-}
