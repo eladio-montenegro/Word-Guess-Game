@@ -1,0 +1,16 @@
+H2 {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+aside {
+    border-style: solid;
+    border-color: grey;
+    width: 300px;
+}
+
+p{
+    border-bottom-style:solid;
+    border-bottom-color: lightgrey;
+}
